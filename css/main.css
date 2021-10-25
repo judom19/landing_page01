@@ -1,0 +1,33 @@
+.navbar{
+    box-shadow: 2px 3px 4px rgb(240, 239, 238);
+    opacity: 0.9;
+}
+.navbar .nav-item .nav-link{
+    color: rgba(236, 229, 226, 0.829);
+
+}
+.main-header{
+    background: url(../img/10.jpg);
+    background-size: cover;/* tamanio de la imagen de header con la propiedad cover
+    cubre todo el header*/
+    min-height: 700px;  /*alto minimo*/
+}
+.backgroud-overlay{
+    
+    background-size: cover;
+    min-height: 700px;  
+}
+.hoja-informativa{
+    background: url(../img/asteroides.jpg);
+    background-size: cover;/* tamanio de la imagen de header con la propiedad cover*/
+    min-height: 100px;  /*alto minimo*/
+
+}
+
+/*MODIFICANDO CLASES BOOTSTRAP*/
+.form-control, .btn{
+    border-radius: 0;
+}
+.equipo{
+    background: rgb(248, 247, 246);
+}

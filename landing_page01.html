@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="css/main.css">
+
+<title>Julio Dominguez</title>
+</head>
+<body>
+    <!-- NAVEGACION -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="/landing_page01/landing_page01.html">
+                <img src="img/02.jpg" alt="nasa" class="rounded float-left img-thumbnail" style=" width: 50px; height: 50px;">
+            </a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" 
+        data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="collapsibleNavId">
+            <ul class="navbar-nav ml-auto ">
+                <li class="nav-item ">
+                    <a class="nav-link" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Desarrollo web</a>
+                </li>
+                <li class="nav-item">   
+                    <a class="nav-link" href="#">Canal You tube</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contacto</a>
+                </li>
+                
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Ayuda</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                        <a class="dropdown-item" href="#">Acerca de...</a>
+                        <a class="dropdown-item" href="#">Informacion de licencias</a>
+                    </div>
+                </li>
+            </ul>
+            <!-- <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form> -->
+        </div>
+        </div>
+    </nav>
+    <!-- HEADER -->
+    <header class="main-header">
+        <div class="backgroud-overlay text-warning py-4">
+            <div class="container">
+                <div class="row m-5">
+                    <div class="col-md-7 text-center justify-content-center align-self-center">
+                        <h1>Las nuevas tomas del espacio</h1>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, rem?</p>                        
+                        <a href="#" class="btn btn-warning btn-lg">Leer mas...</a>
+                    </div>
+
+                    <div class="col-md-5 d-none d-sm-block">
+                    <br>
+                        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="img/03.jpg" class="img-fluid  img-thumbnail" alt="..."   style="width: 500px; height: 300px;">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/blackhole.png" class="img-fluid  img-thumbnail" alt="..."   style="width: 500px; height: 300px;">
+                   
+                            
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/02.jpg" class="img-fluid  img-thumbnail" alt="..."   style="width: 500px; height: 300px;">
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Anterior</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only text-warning">Siguiente</span>
+                            </a>
+                        </div>     
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <br>
+    <!-- HOJA INFORMATIVA -->
+    <section class="hoja-informativa text-white py-5 container" >
+        <div class="hoja-informativa-overlay container">
+            <div class="row">
+                <div class="col-md-4">
+                    <input type="text" class="form-control form-control-md" placeholder="Ingresa tu nombre">
+                </div>
+                <div class="col-md-4">
+                        <input type="email" class="form-control form-control-md" placeholder="Ingresa tu correo">
+
+                </div>
+                <div class="col-md-4">
+                    <button type="button" name="" id="" class="btn btn-primary btn-md btn-block">Suscribete</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <!-- SECCION DE TARJETAS -->
+    <section class="py-4">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3 ">
+                    <div class="card text-black bg-light text-center border-primary">
+                        <div class="card-body">
+                            <h5 class="card-title">Noticias</h5>
+                            <p class="card-text">lo mas leido</p>
+                        </div>
+                        <div class="card-footer">
+                                <script>
+                                    var f = new Date();
+                                    document.write(f.getDate() + "/" + (f.getMonth() +1) + "/" + f.getFullYear());
+                                </script> 
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                        <div class="card text-black bg-info text-center border-primary">
+                                <div class="card-body">
+                                    <h5 class="card-title">Historia</h5>
+                                    <p class="card-text">Los primeros pasos de la estacion</p>
+                                </div>
+                                <div class="card-footer">
+                                        <script>
+                                                var f = new Date();
+                                                document.write(f.getDate() + "/" + (f.getMonth() +1) + "/" + f.getFullYear());
+                                            </script>
+                                    </div>
+                            </div>
+                </div>
+                <div class="col-md-3">
+                        <div class="card text-black bg-light text-center border-primary">
+                                <div class="card-body">
+                                    <h5 class="card-title">Novedades</h5>
+                                    <p class="card-text">Ultimas imagenes hubble</p>
+                                </div>
+                                <div class="card-footer">
+                                        <script>
+                                                var f = new Date();
+                                                document.write(f.getDate() + "/" + (f.getMonth() +1) + "/" + f.getFullYear());
+                                            </script>
+                                    </div>
+                            </div>
+                </div>
+                <div class="col-md-3">
+                        <div class="card text-black bg-info text-center border-primary">
+                                <div class="card-body">
+                                    <h5 class="card-title">Futuro</h5>
+                                    <p class="card-text">Lanzamientos y proyectos...</p>
+                                </div>
+                                <div class="card-footer">
+                                        <script>
+                                                var f = new Date();
+                                                document.write(f.getDate() + "/" + (f.getMonth() +1) + "/" + f.getFullYear());
+                                            </script>
+                                    </div>
+                            </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<br>
+<!-- SERCCION DE ACERCA DE Y MISION -->
+<section class="bg-light tex-center m-3 ">
+        <div class="jumbotron text-center ">
+                <h1 class="display-2">Mision, Vision</h1>
+                <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+                <hr class="my-4">
+                <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                <a class="btn btn-outline-warning" href="#" role="button">Leer mas...</a>
+              </div>
+</section>
+<!-- ACORDEON PARA PREGUNTAS MAS FRECUENTES -->
+<div id="accordianId" role="tablist" aria-multiselectable="true" class="text-center  container-fluid">
+    <div class="card">
+        <div class="card-header" role="tab" id="section1HeaderId">
+            <h5 class="mb-0 ">
+                <a class="text-warning" data-toggle="collapse" data-parent="#accordianId" href="#section1ContentId" aria-expanded="true" aria-controls="section1ContentId">
+          Preguntas mas frecuentes
+        </a>
+            </h5>
+        </div>
+        <div id="section1ContentId" class="collapse in" role="tabpanel" aria-labelledby="section1HeaderId">
+            <div class="card-body text-warning">
+                <p>1- Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam autem commodi voluptate enim, praesentium nisi.</p>
+                <p>2- Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam autem commodi voluptate enim, praesentium nisi.</p>
+                <p>3- Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam autem commodi voluptate enim, praesentium nisi.</p>
+
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header" role="tab" id="section2HeaderId">
+            <h5 class="mb-0">
+                <a class="text-warning" data-toggle="collapse" data-parent="#accordianId" href="#section2ContentId" aria-expanded="true" aria-controls="section2ContentId">
+          Mas informacion
+        </a>
+            </h5>
+        </div>
+        <div id="section2ContentId" class="collapse in" role="tabpanel" aria-labelledby="section2HeaderId">
+            <div class="card-body text-warning"">
+                    <p>1- Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam autem commodi voluptate enim, praesentium nisi.</p>
+                    <p>2- Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam autem commodi voluptate enim, praesentium nisi.</p>
+                    <p>3- Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam autem commodi voluptate enim, praesentium nisi.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<br>
+<!-- SECCION DE EQUIPO -->
+<section class="equipo text-center ">
+    <div class="container p-5 ">
+        <h1 class="text-black">Nuestro Equipo</h1>
+        <p class="text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, atque.</p>
+        <div class="row">
+            <!-- MIEMBROS DEL EQUIPO -->
+            <div class="col-lg-3">
+                <div class="card border-warning">
+                    <img class="card-img-top img-fluid rounded-circle w-70 p-3" src="img/equipo01.jpeg" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Astronautas mision 45 luna</h5>
+                        <p class="card-text">Capacitados en eeuu</p>
+                        <div class="d-flex flex-row justify-content-center">
+                                <!-- REDES SOCIALES -->
+                                <div class="p-3">
+                                    <a href=""><i class="fab fa-instagram    "></i></a>
+                                    
+                                </div>
+                                <div class="p-3">
+                                    <a href="">
+                                        <i class="fab fa-facebook-f    "></i>
+                                    </a>
+                                   
+                                   
+                                </div>
+                                <div class="p-3">
+                                    <a href="">
+                                            <i class="fab fa-twitter    "></i>
+                                    </a>
+                                </div>
+                                
+                            </div>
+                    </div>
+                    <img class="card-img-bottom" src="img/luna.jpeg" alt="">
+                </div>
+            </div>
+            <div class="col-lg-3">
+                    <div class="card border-warning">
+                            <img class="card-img-top img-fluid rounded-circle w-70 p-3" src="img/equipo01.jpeg" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Astronautas mision 45 luna</h5>
+                                <p class="card-text">Capacitados en eeuu</p>
+                                <div class="d-flex flex-row justify-content-center">
+                                        <!-- REDES SOCIALES -->
+                                        <div class="p-3">
+                                            <a href=""><i class="fab fa-instagram    "></i></a>
+                                            
+                                        </div>
+                                        <div class="p-3">
+                                            <a href="">
+                                                <i class="fab fa-facebook-f    "></i>
+                                            </a>
+                                           
+                                           
+                                        </div>
+                                        <div class="p-3">
+                                            <a href="">
+                                                    <i class="fab fa-twitter    "></i>
+                                            </a>
+                                        </div>
+                                        
+                                    </div>
+                            </div>
+                            <img class="card-img-bottom" src="img/luna.jpeg" alt="">
+                        </div>
+            </div>
+            <div class="col-lg-3">
+                    <div class="card border-warning">
+                            <img class="card-img-top img-fluid rounded-circle w-70 p-3" src="img/equipo01.jpeg" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Astronautas mision 45 luna</h5>
+                                <p class="card-text">Capacitados en eeuu</p>
+                                <div class="d-flex flex-row justify-content-center">
+                                        <!-- REDES SOCIALES -->
+                                        <div class="p-3">
+                                            <a href=""><i class="fab fa-instagram    "></i></a>
+                                            
+                                        </div>
+                                        <div class="p-3">
+                                            <a href="">
+                                                <i class="fab fa-facebook-f    "></i>
+                                            </a>
+                                           
+                                           
+                                        </div>
+                                        <div class="p-3">
+                                            <a href="">
+                                                    <i class="fab fa-twitter    "></i>
+                                            </a>
+                                        </div>
+                                        
+                                    </div>
+                            </div>
+                            <img class="card-img-bottom" src="img/luna.jpeg" alt="">
+                        </div>
+            </div>
+            <div class="col-lg-3">
+                    <div class="card border-warning">
+                            <img class="card-img-top img-fluid rounded-circle w-70 p-3" src="img/equipo01.jpeg" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Astronautas mision 45 luna</h5>
+                                <p class="card-text">Capacitados en eeuu</p>
+                                <div class="d-flex flex-row justify-content-center">
+                                    <!-- REDES SOCIALES -->
+                                    <div class="p-3">
+                                        <a href=""><i class="fab fa-instagram    "></i></a>
+                                        
+                                    </div>
+                                    <div class="p-3">
+                                        <a href="">
+                                            <i class="fab fa-facebook-f    "></i>
+                                        </a>
+                                       
+                                       
+                                    </div>
+                                    <div class="p-3">
+                                        <a href="">
+                                                <i class="fab fa-twitter    "></i>
+                                        </a>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <img class="card-img-bottom" src="img/luna.jpeg" alt="">
+                        </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+<br>
+<!-- SECCICION DE CONTACTANOS -->
+<section class="bg-light col-10 offset-1 p-5">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-9">
+                <h3>Contacto</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A, culpa.
+                </p>
+                <form action="">
+                    <div class="input-group m-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="my-addon"><i class="fas fa-user    "></i></span>
+                        </div>
+                        <input class="form-control" type="text" placeholder="Ingresa tu nombre" aria-label="Recipient's " aria-describedby="my-addon">
+                    </div>
+                    <div class="input-group m-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="my-addon"><i class="fas fa-envelope-open    "></i></span>
+                            </div>
+                            <input class="form-control" type="email" placeholder="Ingresa tu email" aria-label="Recipient's " aria-describedby="my-addon">
+                        </div>
+                        <div class="input-group m-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="my-addon"><i class="fas fa-pencil-alt    "></i></span>
+                                </div>  
+                            <textarea class="form-control" name="" id="" cols="30" rows="10" placeholder="Ingresa tu mensaje"></textarea> 
+                        </div>
+                        <button type="button" class="btn btn-outline-primary form-control m-3">Enviar</button>
+
+                </form>
+            </div>
+            <div class=" col-lg-3 align-self-center">
+                    <img src="img/02.jpg" alt="nasa" class="rounded float-left img-thumbnail" >
+                
+                
+            </div>
+        </div>
+    </div>
+</section>
+<br><br><br><br>
+
+<!-- FOOTER -->
+
+   
+    <div class="card-footer fixed-bottom bg-light">
+       <h5 class="text-center ">Copyright <i class="fas fa-copyright   "></i> jdomcanal</h5>
+    </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
